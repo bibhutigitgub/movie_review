@@ -20,7 +20,6 @@ import com.crejo.dao.MovieDetails;
 import com.crejo.dao.UserDetails;
 import com.crejo.vo.ExceedException;
 import com.crejo.vo.MovieUtils;
-//tmb
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class MovieserviceTestCase {
 	MovieUtils utils;
@@ -32,7 +31,7 @@ public class MovieserviceTestCase {
 		utils = MovieUtils.getMovieUtils();
 		impl = new MovieServiceImpl();
 		dataStore = DataStore.getDataStore();
-//sds main1
+
 	}
 
 	@Test
@@ -66,7 +65,7 @@ public class MovieserviceTestCase {
 		}
 
 	}
-//main
+
 	@Test
 	public void btestAddMovie() {
 		impl.addMovie("Don  released in Year 2001 for Genre Action & Comedy ");
